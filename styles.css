@@ -1,0 +1,36 @@
+* {
+    font: "Gill Sans", sans-serif;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+}
+
+.homelink {
+    border: 8px solid gainsboro;
+    font-size: 50px;
+}
+
+.header {
+    font-size: 20px;
+    background-color: gainsboro;
+    border: 8px solid gainsboro;
+}
+
+.content {
+    font-size: 20px;
+    background-color: gainsboro;
+    list-style-position: inside;
+
+}
+
+.overflow {
+      overflow-y: scroll;
+}
+
+/* overflow-y in this case prevents the scrollbar on index.html 
+from shifting the elements to the side
+some ppl on stackoverflow said this can cause
+ issues using flexbox or if in the html tag */
